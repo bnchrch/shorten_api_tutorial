@@ -22,7 +22,11 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:user_id]
 
-  config :ecto_mnesia,
+# Configure your database
+config :shorten_api, ShortenApi.Repo,
+  adapter: EctoMnesia.Adapter
+
+config :ecto_mnesia,
   host: {:system, :atom, "MNESIA_HOST", Kernel.node()},
   storage_type: {:system, :atom, "MNESIA_STORAGE_TYPE", :disc_copies}
 
