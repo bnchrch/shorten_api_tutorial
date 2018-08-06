@@ -25,14 +25,6 @@ defmodule ShortenApiWeb.LinkController do
     render(conn, "show.json", link: link)
   end
 
-  def update(conn, %{"id" => id, "link" => link_params}) do
-    link = Links.get_link!(id)
-
-    with {:ok, %Link{} = link} <- Links.update_link(link, link_params) do
-      render(conn, "show.json", link: link)
-    end
-  end
-
   def delete(conn, %{"id" => id}) do
     link = Links.get_link!(id)
     with {:ok, %Link{}} <- Links.delete_link(link) do

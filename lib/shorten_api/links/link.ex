@@ -1,6 +1,6 @@
 defmodule HashId do
   @behaviour Ecto.Type
-  @hash_id_length 6
+  @hash_id_length 8
   # ======================= #
   # Ecto Specific Callbacks #
   # ======================= #
