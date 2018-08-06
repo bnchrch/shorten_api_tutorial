@@ -38,9 +38,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :shorten_api, ShortenApi.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "shorten_api_dev",
-  hostname: "localhost",
-  pool_size: 10
+  adapter: EctoMnesia.Adapter
+  # username: "postgres",
+  # password: "postgres",
+  # database: "shorten_api_dev",
+  # hostname: "localhost",
+  # pool_size: 10
