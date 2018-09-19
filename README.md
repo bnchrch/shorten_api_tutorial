@@ -1,5 +1,11 @@
 # ShortenApi
+This is a demo fo how you can create a really fast link shortener with Elixir and it's in-memory store Mnesia.
 
+The full tutorial can be found here:
+
+https://medium.freecodecamp.org/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c
+
+## Starting
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
