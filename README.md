@@ -3,7 +3,7 @@ This is a demo fo how you can create a really fast link shortener with Elixir an
 
 The full tutorial can be found here:
 
-https://medium.freecodecamp.org/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c
+https://by.ben.church/How-to-write-a-super-fast-link-shortener-with-Elixir-Phoenix-and-Mnesia/
 
 ## Starting
 To start your Phoenix server:
